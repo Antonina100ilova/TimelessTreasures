@@ -17,6 +17,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TimelessTreasures.Common\TimelessTreasures.Common.csproj" />
+    <ProjectReference Include="..\TimelessTreasures.Data\TimelessTreasures.Data.csproj" />
+    <ProjectReference Include="..\TimelessTreasures.Services\TimelessTreasures.Services.csproj" />
+    <ProjectReference Include="..\TimelessTreasures.Web.ViewModels\TimelessTreasures.Web.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>
