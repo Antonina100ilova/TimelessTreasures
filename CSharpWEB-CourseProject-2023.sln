@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelessTreasures", "TimelessTreasures\TimelessTreasures.csproj", "{A1D9713C-49A2-4E55-AF12-8AB70278AFED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelessTreasures.Web", "TimelessTreasures\TimelessTreasures.Web.csproj", "{A1D9713C-49A2-4E55-AF12-8AB70278AFED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelessTreasures.Common", "TimelessTreasures.Common\TimelessTreasures.Common.csproj", "{12D9E1F1-985D-4C56-A4BC-D52042A66CC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{799AC947-9CD2-4D4B-BC40-D16A24C98CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelessTreasures.Web.ViewModels", "TimelessTreasures.Web.ViewModels\TimelessTreasures.Web.ViewModels.csproj", "{188E1A07-ACC7-4D00-9345-3914D6B9B5CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0B8C1273-2A20-4145-90B0-722B1F1140C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelessTreasures.Data", "TimelessTreasures.Data\TimelessTreasures.Data.csproj", "{1076926E-E2D1-4AF1-AEFD-B49F0122AB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelessTreasures.Data.Models", "TimelessTreasures.Data.Models\TimelessTreasures.Data.Models.csproj", "{CA1B1EB6-E1E1-4F2C-9A51-67113B2A81B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B6ABB9FE-72EC-4740-8C17-079839AED17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelessTreasures.Services", "TimelessTreasures.Services\TimelessTreasures.Services.csproj", "{9E7022E3-A560-4E92-9973-67331E436632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +31,36 @@ Global
 		{A1D9713C-49A2-4E55-AF12-8AB70278AFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1D9713C-49A2-4E55-AF12-8AB70278AFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1D9713C-49A2-4E55-AF12-8AB70278AFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D9E1F1-985D-4C56-A4BC-D52042A66CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D9E1F1-985D-4C56-A4BC-D52042A66CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D9E1F1-985D-4C56-A4BC-D52042A66CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D9E1F1-985D-4C56-A4BC-D52042A66CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188E1A07-ACC7-4D00-9345-3914D6B9B5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188E1A07-ACC7-4D00-9345-3914D6B9B5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188E1A07-ACC7-4D00-9345-3914D6B9B5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188E1A07-ACC7-4D00-9345-3914D6B9B5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1076926E-E2D1-4AF1-AEFD-B49F0122AB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1076926E-E2D1-4AF1-AEFD-B49F0122AB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1076926E-E2D1-4AF1-AEFD-B49F0122AB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1076926E-E2D1-4AF1-AEFD-B49F0122AB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1B1EB6-E1E1-4F2C-9A51-67113B2A81B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1B1EB6-E1E1-4F2C-9A51-67113B2A81B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1B1EB6-E1E1-4F2C-9A51-67113B2A81B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1B1EB6-E1E1-4F2C-9A51-67113B2A81B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7022E3-A560-4E92-9973-67331E436632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7022E3-A560-4E92-9973-67331E436632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7022E3-A560-4E92-9973-67331E436632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7022E3-A560-4E92-9973-67331E436632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1D9713C-49A2-4E55-AF12-8AB70278AFED} = {799AC947-9CD2-4D4B-BC40-D16A24C98CA0}
+		{188E1A07-ACC7-4D00-9345-3914D6B9B5CE} = {799AC947-9CD2-4D4B-BC40-D16A24C98CA0}
+		{1076926E-E2D1-4AF1-AEFD-B49F0122AB75} = {0B8C1273-2A20-4145-90B0-722B1F1140C0}
+		{CA1B1EB6-E1E1-4F2C-9A51-67113B2A81B1} = {0B8C1273-2A20-4145-90B0-722B1F1140C0}
+		{9E7022E3-A560-4E92-9973-67331E436632} = {B6ABB9FE-72EC-4740-8C17-079839AED17E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {483EDE27-1DB3-4B47-9E86-B8E67E637279}
